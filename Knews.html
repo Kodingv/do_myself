@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+  <title>BBC Sports - K리그 소식</title>
+  <meta charset="utf-8">
+  <style>
+  body{
+    margin:0;
+  }
+  #all{
+    display:grid;
+    grid-template-columns: 150px 1fr;
+    margin:0;
+  }
+  #grid{
+    border-right:3px gray solid;
+    width: 210px;
+    margin:0;
+    padding-left: 20px;
+  }
+  #active{
+    color:blue;
+    text-decoration: underline;
+  }
+  #article{
+    padding-left: 150px;
+  }
+  h1{
+    text-align: center;
+    font-size: 50px;
+    border-bottom:3px gray solid;
+    margin:0;
+    padding:20px;
+  }
+  h2{
+    text-align: left;
+    font-size: 45px;
+  }
+  h3{
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+  a{
+    color:black;
+    text-decoration: none;
+  }
+  </style>
+</head>
+<body>
+  <h1>Football News</h1>
+  <div id="all">
+    <div id="grid">
+      <h3>해외 축구</h3>
+      <ul>
+        <li><a href="BBC.html">BBC Sports</a></li>
+        <li><a href="SKY.html">SKY Sports</a></li>
+        <li><a href="Who.html">WhoScored</a></li>
+      </ul>
+      <h3>국내축구</h3>
+      <ul>
+        <li><a href="K.html">K리그 순위 및 데이터</a></li>
+        <li><a href="Knews.html" id="active">K리그 소식</a></li>
+        <li><a href="A.html">한국국대표팀</a></li>
+      </ul>
+    </div>
+    <div id="article">
+      <h2>K리그 소식</h2>
+      <p>
+        공수에 구멍 없고, 김종욱까지 부활... 압도적 1위 광주 재승격 꿈 현실로 - 스포츠서울<br>
+        <a href="https://sports.news.naver.com/news?oid=468&aid=0000824553" target="_blank" title="원문 기사"><button>기사 자세히 보기</button></a>
+      </p>
+      <p style="margin-top:40px;">
+        충남아산FC, 대전 잡고 홈 5경기 무패 도전! - SportalKorea<br>
+        <a href="https://sports.news.naver.com/news?oid=139&aid=0002168348" target="_blank" title="원문 기사"><button>기사 자세히 보기</button></a>
+      </p>
+      <p style="margin-top:40px;">
+        정상 두드리는 울산, 올여름 장현수 합류 없던일로... 원두재 부활이 절실하다 - 스포츠서울<br>
+        <a href="https://sports.news.naver.com/news?oid=468&aid=0000824525" target="_blank" title="원문 기사"><button>기사 자세히 보기</button></a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
